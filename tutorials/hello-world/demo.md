@@ -64,7 +64,7 @@ az containerapp env dapr-component set \
     --name $CONTAINERAPPS_ENVIRONMENT --resource-group $RESOURCE_GROUP \
     --dapr-component-name statestore \
     --yaml statestore.yaml
-``  
+```  
 # Deploy the WebServer:
 This service (Node) runs as an app server on --target-port 3000 (the app port)
 its accompanying Dapr sidecar configured with --dapr-app-id nodeapp and
