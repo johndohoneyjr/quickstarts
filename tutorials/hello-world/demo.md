@@ -9,10 +9,11 @@ CONTAINERAPPS_ENVIRONMENT="my-environment"
 ```
 
 # Create the Resource Group
+```
 az group create \
   --name $RESOURCE_GROUP \
   --location $LOCATION
-  
+```
 #  Create the environment 
 Individual container apps are deployed to an Azure Container Apps environment.
 ```
