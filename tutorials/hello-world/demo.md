@@ -1,9 +1,13 @@
+
+```
 az login
 az extension add --name containerapp
 az provider register --namespace Microsoft.App
 RESOURCE_GROUP="my-container-apps"
 LOCATION="canadacentral"
 CONTAINERAPPS_ENVIRONMENT="my-environment"
+```
+
 # Create the Resource Group
 az group create \
   --name $RESOURCE_GROUP \
